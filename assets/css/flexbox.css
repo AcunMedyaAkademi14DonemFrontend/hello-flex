@@ -1,0 +1,68 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+body {
+  font-family: Montserrat;
+}
+
+/* Breakout mantığı */
+
+/* .container {
+  max-width: 1280px;
+  margin-inline: auto;
+  background-color: lightgoldenrodyellow;
+
+  padding: 20px;
+}
+
+.footer {
+  background-color: lightskyblue;
+} */
+
+/* Flexbox */
+
+.container {
+  width: 500px;
+  display: flex;
+  gap: 10px;
+  background-color: lightskyblue;
+  padding: 20px;
+}
+
+.box {
+  background-color: lightcoral;
+  padding: 20px;
+}
+
+/* GAP Özelliği */
+/* Grid ve Flex container içindeki öğeler arasındaki boşluğu tanımlamak için kullanılır */
+
+/* .container {
+  display: flex;
+  gap: 20px;
+} */
+
+/* Flex Direction Özelliği */
+/* Flex container içindeki öğelerin ana eksenini yani yönünü belirler */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+} */
+
+/* Flex Wrap Özelliği */
+/* flex container içindeki öğelerin tek bir satırda mı yoksa 
+birden fazla satırda mı yer alacağını belirler. Bu özellik öğelerin 
+satırda taşma durumunu nasıl kontrol edeceğini belirler */
+
+/* .container {
+  flex-wrap: wrap;
+} */
+
+/* justify-content özelliği */
+/* flex container içindeki öğelerin ana eksen boyunca nasıl 
+hizalanacağını belirler. */
+
+.container {
+  justify-content: space-between;
+}
