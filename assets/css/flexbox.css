@@ -63,6 +63,70 @@ satırda taşma durumunu nasıl kontrol edeceğini belirler */
 /* flex container içindeki öğelerin ana eksen boyunca nasıl 
 hizalanacağını belirler. */
 
-.container {
+/* .container {
   justify-content: space-between;
+} */
+
+/* align-content Özelliği */
+/* Flex container içindeki satırların nasıl hizalanacağını belirler
+Bu özellik birden fazla satır olduğunda geçerlidir. */
+
+/* .container {
+  flex-wrap: wrap;
+  align-content: center;
+} */
+
+/* align-items Özelliği */
+/* Flex container içindeki satırların nasıl hizalanacağını belirler
+Bu özellik tek bir satırdaki öğelerin hizanlanmasını kontrol eder */
+
+/* .container {
+  align-items: flex-end;
+} */
+
+/* align-items ile align-content arasındaki fark
+align-items -> tek tek itemları hizalar
+align-content -> satırları hizalar
+*/
+
+/* .box1 {
+  order: 3;
 }
+
+.box2 {
+  order: 1;
+}
+
+.box3 {
+  order: 2;
+} */
+
+/* align-self özelliği */
+
+/* .container {
+  align-items: flex-start;
+}
+
+.box1 {
+  align-self: center;
+}
+
+.box2 {
+  align-self: flex-end;
+}
+
+.box3 {
+  align-self: stretch;
+} */
+
+/* flex-shrink
+flex container'ın boyutu küçüldüğünde ne kadar küçüleceğini belirler
+*/
+
+/* flex-grow
+boyutu büyüdüğünde ne kadarbüyüyeceğini belirler
+ */
+
+/* flex-basis
+flex container'ın ana boyunu belir. bu özellik öeğenin başlangıç boyutunu ayarlar
+ve width / height özelliklerinden önce gelir. */
